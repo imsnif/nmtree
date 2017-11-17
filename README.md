@@ -1,6 +1,7 @@
 # nmtree
 
 [![Build Status](https://travis-ci.org/imsnif/nmtree.svg?branch=master)](https://travis-ci.org/imsnif/nmtree) [![Coverage Status](https://coveralls.io/repos/github/imsnif/nmtree/badge.svg?branch=master)](https://coveralls.io/github/imsnif/nmtree?branch=master) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 Get a node_modules directory with all its `package.json` files as a parsable flat tree.
 
 ![alt text](https://github.com/imsnif/nmtree/raw/master/docs/tty.gif )

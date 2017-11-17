@@ -1,0 +1,31 @@
+{
+  "name": "nmtree",
+  "version": "1.0.0",
+  "description": "Get a (flat) tree representation of the modules in your node_modules folder",
+  "main": "index.js",
+  "bin": {
+    "nmtree": "./bin/nmtree.js"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.spec.js | tap-spec",
+    "coverage": "nyc --reporter=lcov npm test"
+  },
+  "keywords": [
+    "node_modules",
+    "tree",
+    "parse",
+    "json",
+    "object"
+  ],
+  "author": "Aram Drevekenin <grimsniffer@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nyc": "^11.3.0",
+    "standard": "^10.0.3",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}

@@ -1,0 +1,3771 @@
+{
+  "/fixtures/test-package": {
+    "name": "test-package",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.16.2"
+    }
+  },
+  "/fixtures/test-package/node_modules/accepts": {
+    "_from": "accepts@~1.3.4",
+    "_id": "accepts@1.3.4",
+    "_inBundle": false,
+    "_integrity": "sha1-hiRnWMfdbSGmR0/whKR0DsBesh8=",
+    "_location": "/accepts",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "accepts@~1.3.4",
+      "name": "accepts",
+      "escapedName": "accepts",
+      "rawSpec": "~1.3.4",
+      "saveSpec": null,
+      "fetchSpec": "~1.3.4"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/accepts/-/accepts-1.3.4.tgz",
+    "_shasum": "86246758c7dd6d21a6474ff084a4740ec05eb21f",
+    "_spec": "accepts@~1.3.4",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/accepts/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "dependencies": {
+      "mime-types": "~2.1.16",
+      "negotiator": "0.6.1"
+    },
+    "deprecated": false,
+    "description": "Higher-level content negotiation",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "~1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/accepts#readme",
+    "keywords": [
+      "content",
+      "negotiation",
+      "accept",
+      "accepts"
+    ],
+    "license": "MIT",
+    "name": "accepts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/accepts.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.3.4"
+  },
+  "/fixtures/test-package/node_modules/array-flatten": {
+    "_from": "array-flatten@1.1.1",
+    "_id": "array-flatten@1.1.1",
+    "_inBundle": false,
+    "_integrity": "sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=",
+    "_location": "/array-flatten",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "array-flatten@1.1.1",
+      "name": "array-flatten",
+      "escapedName": "array-flatten",
+      "rawSpec": "1.1.1",
+      "saveSpec": null,
+      "fetchSpec": "1.1.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz",
+    "_shasum": "9a5f699051b1e7073328f2a008968b64ea2955d2",
+    "_spec": "array-flatten@1.1.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Blake Embrey",
+      "email": "hello@blakeembrey.com",
+      "url": "http://blakeembrey.me"
+    },
+    "bugs": {
+      "url": "https://github.com/blakeembrey/array-flatten/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Flatten an array of nested arrays into a single flat array",
+    "devDependencies": {
+      "istanbul": "^0.3.13",
+      "mocha": "^2.2.4",
+      "pre-commit": "^1.0.7",
+      "standard": "^3.7.3"
+    },
+    "files": [
+      "array-flatten.js",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/blakeembrey/array-flatten",
+    "keywords": [
+      "array",
+      "flatten",
+      "arguments",
+      "depth"
+    ],
+    "license": "MIT",
+    "main": "array-flatten.js",
+    "name": "array-flatten",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/blakeembrey/array-flatten.git"
+    },
+    "scripts": {
+      "test": "istanbul cover _mocha -- -R spec"
+    },
+    "version": "1.1.1"
+  },
+  "/fixtures/test-package/node_modules/body-parser": {
+    "_from": "body-parser@1.18.2",
+    "_id": "body-parser@1.18.2",
+    "_inBundle": false,
+    "_integrity": "sha1-h2eKGdhLR9hZuDGZvVm84iKxBFQ=",
+    "_location": "/body-parser",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "body-parser@1.18.2",
+      "name": "body-parser",
+      "escapedName": "body-parser",
+      "rawSpec": "1.18.2",
+      "saveSpec": null,
+      "fetchSpec": "1.18.2"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/body-parser/-/body-parser-1.18.2.tgz",
+    "_shasum": "87678a19d84b47d859b83199bd59bce222b10454",
+    "_spec": "body-parser@1.18.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/expressjs/body-parser/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "dependencies": {
+      "bytes": "3.0.0",
+      "content-type": "~1.0.4",
+      "debug": "2.6.9",
+      "depd": "~1.1.1",
+      "http-errors": "~1.6.2",
+      "iconv-lite": "0.4.19",
+      "on-finished": "~2.3.0",
+      "qs": "6.5.1",
+      "raw-body": "2.3.2",
+      "type-is": "~1.6.15"
+    },
+    "deprecated": false,
+    "description": "Node.js body parsing middleware",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "methods": "1.1.2",
+      "mocha": "2.5.3",
+      "safe-buffer": "5.1.1",
+      "supertest": "1.1.0"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "lib/",
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/expressjs/body-parser#readme",
+    "license": "MIT",
+    "name": "body-parser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/expressjs/body-parser.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --require test/support/env --reporter spec --check-leaks --bail test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/"
+    },
+    "version": "1.18.2"
+  },
+  "/fixtures/test-package/node_modules/bytes": {
+    "_from": "bytes@3.0.0",
+    "_id": "bytes@3.0.0",
+    "_inBundle": false,
+    "_integrity": "sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=",
+    "_location": "/bytes",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "bytes@3.0.0",
+      "name": "bytes",
+      "escapedName": "bytes",
+      "rawSpec": "3.0.0",
+      "saveSpec": null,
+      "fetchSpec": "3.0.0"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/raw-body"
+    ],
+    "_resolved": "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz",
+    "_shasum": "d32815404d689699f85a4ea4fa8755dd13a96048",
+    "_spec": "bytes@3.0.0",
+    "_where": "/fixtures/test-package/node_modules/body-parser",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca",
+      "url": "http://tjholowaychuk.com"
+    },
+    "bugs": {
+      "url": "https://github.com/visionmedia/bytes.js/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Jed Watson",
+        "email": "jed.watson@me.com"
+      },
+      {
+        "name": "Théo FIDRY",
+        "email": "theo.fidry@gmail.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Utility to parse a string bytes to bytes and vice-versa",
+    "devDependencies": {
+      "mocha": "2.5.3",
+      "nyc": "10.3.2"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "History.md",
+      "LICENSE",
+      "Readme.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/visionmedia/bytes.js#readme",
+    "keywords": [
+      "byte",
+      "bytes",
+      "utility",
+      "parse",
+      "parser",
+      "convert",
+      "converter"
+    ],
+    "license": "MIT",
+    "name": "bytes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/visionmedia/bytes.js.git"
+    },
+    "scripts": {
+      "test": "mocha --check-leaks --reporter spec",
+      "test-ci": "nyc --reporter=text npm test",
+      "test-cov": "nyc --reporter=html --reporter=text npm test"
+    },
+    "version": "3.0.0"
+  },
+  "/fixtures/test-package/node_modules/content-disposition": {
+    "_from": "content-disposition@0.5.2",
+    "_id": "content-disposition@0.5.2",
+    "_inBundle": false,
+    "_integrity": "sha1-DPaLud318r55YcOoUXjLhdunjLQ=",
+    "_location": "/content-disposition",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "content-disposition@0.5.2",
+      "name": "content-disposition",
+      "escapedName": "content-disposition",
+      "rawSpec": "0.5.2",
+      "saveSpec": null,
+      "fetchSpec": "0.5.2"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.2.tgz",
+    "_shasum": "0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4",
+    "_spec": "content-disposition@0.5.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/content-disposition/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Create and parse Content-Disposition header",
+    "devDependencies": {
+      "eslint": "3.11.1",
+      "eslint-config-standard": "6.2.1",
+      "eslint-plugin-promise": "3.3.0",
+      "eslint-plugin-standard": "2.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/content-disposition#readme",
+    "keywords": [
+      "content-disposition",
+      "http",
+      "rfc6266",
+      "res"
+    ],
+    "license": "MIT",
+    "name": "content-disposition",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/content-disposition.git"
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "0.5.2"
+  },
+  "/fixtures/test-package/node_modules/content-type": {
+    "_from": "content-type@~1.0.4",
+    "_id": "content-type@1.0.4",
+    "_inBundle": false,
+    "_integrity": "sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==",
+    "_location": "/content-type",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "content-type@~1.0.4",
+      "name": "content-type",
+      "escapedName": "content-type",
+      "rawSpec": "~1.0.4",
+      "saveSpec": null,
+      "fetchSpec": "~1.0.4"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz",
+    "_shasum": "e138cc75e040c727b1966fe5e5f8c9aee256fe3b",
+    "_spec": "content-type@~1.0.4",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/content-type/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Create and parse HTTP Content-Type header",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "~1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/content-type#readme",
+    "keywords": [
+      "content-type",
+      "http",
+      "req",
+      "res",
+      "rfc7231"
+    ],
+    "license": "MIT",
+    "name": "content-type",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/content-type.git"
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+    },
+    "version": "1.0.4"
+  },
+  "/fixtures/test-package/node_modules/cookie": {
+    "_from": "cookie@0.3.1",
+    "_id": "cookie@0.3.1",
+    "_inBundle": false,
+    "_integrity": "sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=",
+    "_location": "/cookie",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "cookie@0.3.1",
+      "name": "cookie",
+      "escapedName": "cookie",
+      "rawSpec": "0.3.1",
+      "saveSpec": null,
+      "fetchSpec": "0.3.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/cookie/-/cookie-0.3.1.tgz",
+    "_shasum": "e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb",
+    "_spec": "cookie@0.3.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Roman Shtylman",
+      "email": "shtylman@gmail.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/cookie/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "HTTP server cookie parsing and serialization",
+    "devDependencies": {
+      "istanbul": "0.4.3",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/cookie#readme",
+    "keywords": [
+      "cookie",
+      "cookies"
+    ],
+    "license": "MIT",
+    "name": "cookie",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/cookie.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+    },
+    "version": "0.3.1"
+  },
+  "/fixtures/test-package/node_modules/cookie-signature": {
+    "_from": "cookie-signature@1.0.6",
+    "_id": "cookie-signature@1.0.6",
+    "_inBundle": false,
+    "_integrity": "sha1-4wOogrNCzD7oylE6eZmXNNqzriw=",
+    "_location": "/cookie-signature",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "cookie-signature@1.0.6",
+      "name": "cookie-signature",
+      "escapedName": "cookie-signature",
+      "rawSpec": "1.0.6",
+      "saveSpec": null,
+      "fetchSpec": "1.0.6"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz",
+    "_shasum": "e303a882b342cc3ee8ca513a79999734dab3ae2c",
+    "_spec": "cookie-signature@1.0.6",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@learnboost.com"
+    },
+    "bugs": {
+      "url": "https://github.com/visionmedia/node-cookie-signature/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "description": "Sign and unsign cookies",
+    "devDependencies": {
+      "mocha": "*",
+      "should": "*"
+    },
+    "homepage": "https://github.com/visionmedia/node-cookie-signature#readme",
+    "keywords": [
+      "cookie",
+      "sign",
+      "unsign"
+    ],
+    "license": "MIT",
+    "main": "index",
+    "name": "cookie-signature",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/visionmedia/node-cookie-signature.git"
+    },
+    "scripts": {
+      "test": "mocha --require should --reporter spec"
+    },
+    "version": "1.0.6"
+  },
+  "/fixtures/test-package/node_modules/debug": {
+    "_from": "debug@2.6.9",
+    "_id": "debug@2.6.9",
+    "_inBundle": false,
+    "_integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==",
+    "_location": "/debug",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "debug@2.6.9",
+      "name": "debug",
+      "escapedName": "debug",
+      "rawSpec": "2.6.9",
+      "saveSpec": null,
+      "fetchSpec": "2.6.9"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express",
+      "/finalhandler",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz",
+    "_shasum": "5d128515df134ff327e90a4c93f4e077a536341f",
+    "_spec": "debug@2.6.9",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca"
+    },
+    "browser": "./src/browser.js",
+    "bugs": {
+      "url": "https://github.com/visionmedia/debug/issues"
+    },
+    "bundleDependencies": false,
+    "component": {
+      "scripts": {
+        "debug/index.js": "browser.js",
+        "debug/debug.js": "debug.js"
+      }
+    },
+    "contributors": [
+      {
+        "name": "Nathan Rajlich",
+        "email": "nathan@tootallnate.net",
+        "url": "http://n8.io"
+      },
+      {
+        "name": "Andrew Rhyne",
+        "email": "rhyneandrew@gmail.com"
+      }
+    ],
+    "dependencies": {
+      "ms": "2.0.0"
+    },
+    "deprecated": false,
+    "description": "small debugging utility",
+    "devDependencies": {
+      "browserify": "9.0.3",
+      "chai": "^3.5.0",
+      "concurrently": "^3.1.0",
+      "coveralls": "^2.11.15",
+      "eslint": "^3.12.1",
+      "istanbul": "^0.4.5",
+      "karma": "^1.3.0",
+      "karma-chai": "^0.1.0",
+      "karma-mocha": "^1.3.0",
+      "karma-phantomjs-launcher": "^1.0.2",
+      "karma-sinon": "^1.0.5",
+      "mocha": "^3.2.0",
+      "mocha-lcov-reporter": "^1.2.0",
+      "rimraf": "^2.5.4",
+      "sinon": "^1.17.6",
+      "sinon-chai": "^2.8.0"
+    },
+    "homepage": "https://github.com/visionmedia/debug#readme",
+    "keywords": [
+      "debug",
+      "log",
+      "debugger"
+    ],
+    "license": "MIT",
+    "main": "./src/index.js",
+    "name": "debug",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/visionmedia/debug.git"
+    },
+    "version": "2.6.9"
+  },
+  "/fixtures/test-package/node_modules/depd": {
+    "_from": "depd@~1.1.1",
+    "_id": "depd@1.1.1",
+    "_inBundle": false,
+    "_integrity": "sha1-V4O04cRZ8G+lyif5kfPQbnoxA1k=",
+    "_location": "/depd",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "depd@~1.1.1",
+      "name": "depd",
+      "escapedName": "depd",
+      "rawSpec": "~1.1.1",
+      "saveSpec": null,
+      "fetchSpec": "~1.1.1"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express",
+      "/http-errors",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/depd/-/depd-1.1.1.tgz",
+    "_shasum": "5783b4e1c459f06fa5ca27f991f3d06e7a310359",
+    "_spec": "depd@~1.1.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "browser": "lib/browser/index.js",
+    "bugs": {
+      "url": "https://github.com/dougwilson/nodejs-depd/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Deprecate all the things",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "7.1.0",
+      "eslint-plugin-markdown": "1.0.0-beta.7",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "2.3.1",
+      "istanbul": "0.4.5",
+      "mocha": "~1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "lib/",
+      "History.md",
+      "LICENSE",
+      "index.js",
+      "Readme.md"
+    ],
+    "homepage": "https://github.com/dougwilson/nodejs-depd#readme",
+    "keywords": [
+      "deprecate",
+      "deprecated"
+    ],
+    "license": "MIT",
+    "name": "depd",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dougwilson/nodejs-depd.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --no-exit test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/"
+    },
+    "version": "1.1.1"
+  },
+  "/fixtures/test-package/node_modules/destroy": {
+    "_from": "destroy@~1.0.4",
+    "_id": "destroy@1.0.4",
+    "_inBundle": false,
+    "_integrity": "sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=",
+    "_location": "/destroy",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "destroy@~1.0.4",
+      "name": "destroy",
+      "escapedName": "destroy",
+      "rawSpec": "~1.0.4",
+      "saveSpec": null,
+      "fetchSpec": "~1.0.4"
+    },
+    "_requiredBy": [
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz",
+    "_shasum": "978857442c44749e4206613e37946205826abd80",
+    "_spec": "destroy@~1.0.4",
+    "_where": "/fixtures/test-package/node_modules/send",
+    "author": {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    "bugs": {
+      "url": "https://github.com/stream-utils/destroy/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "destroy a stream if possible",
+    "devDependencies": {
+      "istanbul": "0.4.2",
+      "mocha": "2.3.4"
+    },
+    "files": [
+      "index.js",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/stream-utils/destroy#readme",
+    "keywords": [
+      "stream",
+      "streams",
+      "destroy",
+      "cleanup",
+      "leak",
+      "fd"
+    ],
+    "license": "MIT",
+    "name": "destroy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stream-utils/destroy.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+    },
+    "version": "1.0.4"
+  },
+  "/fixtures/test-package/node_modules/ee-first": {
+    "_from": "ee-first@1.1.1",
+    "_id": "ee-first@1.1.1",
+    "_inBundle": false,
+    "_integrity": "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=",
+    "_location": "/ee-first",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "ee-first@1.1.1",
+      "name": "ee-first",
+      "escapedName": "ee-first",
+      "rawSpec": "1.1.1",
+      "saveSpec": null,
+      "fetchSpec": "1.1.1"
+    },
+    "_requiredBy": [
+      "/on-finished"
+    ],
+    "_resolved": "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz",
+    "_shasum": "590c61156b0ae2f4f0255732a158b266bc56b21d",
+    "_spec": "ee-first@1.1.1",
+    "_where": "/fixtures/test-package/node_modules/on-finished",
+    "author": {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jonathanong/ee-first/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "return the first event in a set of ee/event pairs",
+    "devDependencies": {
+      "istanbul": "0.3.9",
+      "mocha": "2.2.5"
+    },
+    "files": [
+      "index.js",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/jonathanong/ee-first#readme",
+    "license": "MIT",
+    "name": "ee-first",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonathanong/ee-first.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.1.1"
+  },
+  "/fixtures/test-package/node_modules/encodeurl": {
+    "_from": "encodeurl@~1.0.1",
+    "_id": "encodeurl@1.0.1",
+    "_inBundle": false,
+    "_integrity": "sha1-eePVhlU0aQn+bw9Fpd5oEDspTSA=",
+    "_location": "/encodeurl",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "encodeurl@~1.0.1",
+      "name": "encodeurl",
+      "escapedName": "encodeurl",
+      "rawSpec": "~1.0.1",
+      "saveSpec": null,
+      "fetchSpec": "~1.0.1"
+    },
+    "_requiredBy": [
+      "/express",
+      "/finalhandler",
+      "/send",
+      "/serve-static"
+    ],
+    "_resolved": "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.1.tgz",
+    "_shasum": "79e3d58655346909fe6f0f45a5de68103b294d20",
+    "_spec": "encodeurl@~1.0.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/pillarjs/encodeurl/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Encode a URL to a percent-encoded form, excluding already-encoded sequences",
+    "devDependencies": {
+      "eslint": "2.11.1",
+      "eslint-config-standard": "5.3.1",
+      "eslint-plugin-promise": "1.3.2",
+      "eslint-plugin-standard": "1.3.2",
+      "istanbul": "0.4.3",
+      "mocha": "2.5.3"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/pillarjs/encodeurl#readme",
+    "keywords": [
+      "encode",
+      "encodeurl",
+      "url"
+    ],
+    "license": "MIT",
+    "name": "encodeurl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pillarjs/encodeurl.git"
+    },
+    "scripts": {
+      "lint": "eslint **/*.js",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.0.1"
+  },
+  "/fixtures/test-package/node_modules/escape-html": {
+    "_from": "escape-html@~1.0.3",
+    "_id": "escape-html@1.0.3",
+    "_inBundle": false,
+    "_integrity": "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=",
+    "_location": "/escape-html",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "escape-html@~1.0.3",
+      "name": "escape-html",
+      "escapedName": "escape-html",
+      "rawSpec": "~1.0.3",
+      "saveSpec": null,
+      "fetchSpec": "~1.0.3"
+    },
+    "_requiredBy": [
+      "/express",
+      "/finalhandler",
+      "/send",
+      "/serve-static"
+    ],
+    "_resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",
+    "_shasum": "0258eae4d3d0c0974de1c169188ef0051d1d1988",
+    "_spec": "escape-html@~1.0.3",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/component/escape-html/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Escape string for use in HTML",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "1.0.0"
+    },
+    "files": [
+      "LICENSE",
+      "Readme.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/component/escape-html#readme",
+    "keywords": [
+      "escape",
+      "html",
+      "utility"
+    ],
+    "license": "MIT",
+    "name": "escape-html",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/component/escape-html.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js"
+    },
+    "version": "1.0.3"
+  },
+  "/fixtures/test-package/node_modules/etag": {
+    "_from": "etag@~1.8.1",
+    "_id": "etag@1.8.1",
+    "_inBundle": false,
+    "_integrity": "sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=",
+    "_location": "/etag",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "etag@~1.8.1",
+      "name": "etag",
+      "escapedName": "etag",
+      "rawSpec": "~1.8.1",
+      "saveSpec": null,
+      "fetchSpec": "~1.8.1"
+    },
+    "_requiredBy": [
+      "/express",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/etag/-/etag-1.8.1.tgz",
+    "_shasum": "41ae2eeb65efa62268aebfea83ac7d79299b0887",
+    "_spec": "etag@~1.8.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/etag/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "David Björklund",
+        "email": "david.bjorklund@gmail.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Create simple HTTP ETags",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5",
+      "safe-buffer": "5.1.1",
+      "seedrandom": "2.4.3"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/etag#readme",
+    "keywords": [
+      "etag",
+      "http",
+      "res"
+    ],
+    "license": "MIT",
+    "name": "etag",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/etag.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.8.1"
+  },
+  "/fixtures/test-package/node_modules/express": {
+    "_from": "express",
+    "_id": "express@4.16.2",
+    "_inBundle": false,
+    "_integrity": "sha1-41xt/i1kt9ygpc1PIXgb4ymeB2w=",
+    "_location": "/express",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "tag",
+      "registry": true,
+      "raw": "express",
+      "name": "express",
+      "escapedName": "express",
+      "rawSpec": "",
+      "saveSpec": null,
+      "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+      "#USER",
+      "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/express/-/express-4.16.2.tgz",
+    "_shasum": "e35c6dfe2d64b7dca0a5cd4f21781be3299e076c",
+    "_spec": "express",
+    "_where": "/fixtures/test-package",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca"
+    },
+    "bugs": {
+      "url": "https://github.com/expressjs/express/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Aaron Heckmann",
+        "email": "aaron.heckmann+github@gmail.com"
+      },
+      {
+        "name": "Ciaran Jessup",
+        "email": "ciaranj@gmail.com"
+      },
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "email": "rauchg@gmail.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com"
+      },
+      {
+        "name": "Roman Shtylman",
+        "email": "shtylman+expressjs@gmail.com"
+      },
+      {
+        "name": "Young Jae Sim",
+        "email": "hanul@hanul.me"
+      }
+    ],
+    "dependencies": {
+      "accepts": "~1.3.4",
+      "array-flatten": "1.1.1",
+      "body-parser": "1.18.2",
+      "content-disposition": "0.5.2",
+      "content-type": "~1.0.4",
+      "cookie": "0.3.1",
+      "cookie-signature": "1.0.6",
+      "debug": "2.6.9",
+      "depd": "~1.1.1",
+      "encodeurl": "~1.0.1",
+      "escape-html": "~1.0.3",
+      "etag": "~1.8.1",
+      "finalhandler": "1.1.0",
+      "fresh": "0.5.2",
+      "merge-descriptors": "1.0.1",
+      "methods": "~1.1.2",
+      "on-finished": "~2.3.0",
+      "parseurl": "~1.3.2",
+      "path-to-regexp": "0.1.7",
+      "proxy-addr": "~2.0.2",
+      "qs": "6.5.1",
+      "range-parser": "~1.2.0",
+      "safe-buffer": "5.1.1",
+      "send": "0.16.1",
+      "serve-static": "1.13.1",
+      "setprototypeof": "1.1.0",
+      "statuses": "~1.3.1",
+      "type-is": "~1.6.15",
+      "utils-merge": "1.0.1",
+      "vary": "~1.1.2"
+    },
+    "deprecated": false,
+    "description": "Fast, unopinionated, minimalist web framework",
+    "devDependencies": {
+      "after": "0.8.2",
+      "connect-redis": "~2.4.1",
+      "cookie-parser": "~1.4.3",
+      "cookie-session": "1.3.2",
+      "ejs": "2.5.7",
+      "eslint": "2.13.1",
+      "express-session": "1.15.6",
+      "hbs": "4.0.1",
+      "istanbul": "0.4.5",
+      "marked": "0.3.6",
+      "method-override": "2.3.10",
+      "mocha": "3.5.3",
+      "morgan": "1.9.0",
+      "multiparty": "4.1.3",
+      "pbkdf2-password": "1.2.1",
+      "should": "13.1.0",
+      "supertest": "1.2.0",
+      "vhost": "~3.0.2"
+    },
+    "engines": {
+      "node": ">= 0.10.0"
+    },
+    "files": [
+      "LICENSE",
+      "History.md",
+      "Readme.md",
+      "index.js",
+      "lib/"
+    ],
+    "homepage": "http://expressjs.com/",
+    "keywords": [
+      "express",
+      "framework",
+      "sinatra",
+      "web",
+      "rest",
+      "restful",
+      "router",
+      "app",
+      "api"
+    ],
+    "license": "MIT",
+    "name": "express",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/expressjs/express.git"
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "test": "mocha --require test/support/env --reporter spec --bail --check-leaks --no-exit test/ test/acceptance/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks --no-exit test/ test/acceptance/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks --no-exit test/ test/acceptance/",
+      "test-tap": "mocha --require test/support/env --reporter tap --check-leaks --no-exit test/ test/acceptance/"
+    },
+    "version": "4.16.2"
+  },
+  "/fixtures/test-package/node_modules/finalhandler": {
+    "_from": "finalhandler@1.1.0",
+    "_id": "finalhandler@1.1.0",
+    "_inBundle": false,
+    "_integrity": "sha1-zgtoVbRYU+eRsvzGgARtiCU91/U=",
+    "_location": "/finalhandler",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "finalhandler@1.1.0",
+      "name": "finalhandler",
+      "escapedName": "finalhandler",
+      "rawSpec": "1.1.0",
+      "saveSpec": null,
+      "fetchSpec": "1.1.0"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.0.tgz",
+    "_shasum": "ce0b6855b45853e791b2fcc680046d88253dd7f5",
+    "_spec": "finalhandler@1.1.0",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/pillarjs/finalhandler/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+      "debug": "2.6.9",
+      "encodeurl": "~1.0.1",
+      "escape-html": "~1.0.3",
+      "on-finished": "~2.3.0",
+      "parseurl": "~1.3.2",
+      "statuses": "~1.3.1",
+      "unpipe": "~1.0.0"
+    },
+    "deprecated": false,
+    "description": "Node.js final http responder",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3",
+      "readable-stream": "2.3.3",
+      "safe-buffer": "5.1.1",
+      "supertest": "1.1.0"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/pillarjs/finalhandler#readme",
+    "license": "MIT",
+    "name": "finalhandler",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pillarjs/finalhandler.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+    },
+    "version": "1.1.0"
+  },
+  "/fixtures/test-package/node_modules/forwarded": {
+    "_from": "forwarded@~0.1.2",
+    "_id": "forwarded@0.1.2",
+    "_inBundle": false,
+    "_integrity": "sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=",
+    "_location": "/forwarded",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "forwarded@~0.1.2",
+      "name": "forwarded",
+      "escapedName": "forwarded",
+      "rawSpec": "~0.1.2",
+      "saveSpec": null,
+      "fetchSpec": "~0.1.2"
+    },
+    "_requiredBy": [
+      "/proxy-addr"
+    ],
+    "_resolved": "https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz",
+    "_shasum": "98c23dab1175657b8c0573e8ceccd91b0ff18c84",
+    "_spec": "forwarded@~0.1.2",
+    "_where": "/fixtures/test-package/node_modules/proxy-addr",
+    "bugs": {
+      "url": "https://github.com/jshttp/forwarded/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Parse HTTP X-Forwarded-For header",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/forwarded#readme",
+    "keywords": [
+      "x-forwarded-for",
+      "http",
+      "req"
+    ],
+    "license": "MIT",
+    "name": "forwarded",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/forwarded.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "0.1.2"
+  },
+  "/fixtures/test-package/node_modules/fresh": {
+    "_from": "fresh@0.5.2",
+    "_id": "fresh@0.5.2",
+    "_inBundle": false,
+    "_integrity": "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=",
+    "_location": "/fresh",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "fresh@0.5.2",
+      "name": "fresh",
+      "escapedName": "fresh",
+      "rawSpec": "0.5.2",
+      "saveSpec": null,
+      "fetchSpec": "0.5.2"
+    },
+    "_requiredBy": [
+      "/express",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz",
+    "_shasum": "3d8cadd90d976569fa835ab1f8e4b23a105605a7",
+    "_spec": "fresh@0.5.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca",
+      "url": "http://tjholowaychuk.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/fresh/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "HTTP response freshness testing",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/fresh#readme",
+    "keywords": [
+      "fresh",
+      "http",
+      "conditional",
+      "cache"
+    ],
+    "license": "MIT",
+    "name": "fresh",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/fresh.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "0.5.2"
+  },
+  "/fixtures/test-package/node_modules/http-errors": {
+    "_from": "http-errors@~1.6.2",
+    "_id": "http-errors@1.6.2",
+    "_inBundle": false,
+    "_integrity": "sha1-CgAsyFcHGSp+eUbO7cERVfYOxzY=",
+    "_location": "/http-errors",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "http-errors@~1.6.2",
+      "name": "http-errors",
+      "escapedName": "http-errors",
+      "rawSpec": "~1.6.2",
+      "saveSpec": null,
+      "fetchSpec": "~1.6.2"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/raw-body",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/http-errors/-/http-errors-1.6.2.tgz",
+    "_shasum": "0a002cc85707192a7e7946ceedc11155f60ec736",
+    "_spec": "http-errors@~1.6.2",
+    "_where": "/fixtures/test-package/node_modules/body-parser",
+    "author": {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/http-errors/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Alan Plum",
+        "email": "me@pluma.io"
+      },
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      }
+    ],
+    "dependencies": {
+      "depd": "1.1.1",
+      "inherits": "2.0.3",
+      "setprototypeof": "1.0.3",
+      "statuses": ">= 1.3.1 < 2"
+    },
+    "deprecated": false,
+    "description": "Create HTTP error objects",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "index.js",
+      "HISTORY.md",
+      "LICENSE",
+      "README.md"
+    ],
+    "homepage": "https://github.com/jshttp/http-errors#readme",
+    "keywords": [
+      "http",
+      "error"
+    ],
+    "license": "MIT",
+    "name": "http-errors",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/http-errors.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+    },
+    "version": "1.6.2"
+  },
+  "/fixtures/test-package/node_modules/http-errors/node_modules/setprototypeof": {
+    "_from": "setprototypeof@1.0.3",
+    "_id": "setprototypeof@1.0.3",
+    "_inBundle": false,
+    "_integrity": "sha1-ZlZ+NwQ+608E2RvWWMDL77VbjgQ=",
+    "_location": "/http-errors/setprototypeof",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "setprototypeof@1.0.3",
+      "name": "setprototypeof",
+      "escapedName": "setprototypeof",
+      "rawSpec": "1.0.3",
+      "saveSpec": null,
+      "fetchSpec": "1.0.3"
+    },
+    "_requiredBy": [
+      "/http-errors"
+    ],
+    "_resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.0.3.tgz",
+    "_shasum": "66567e37043eeb4f04d91bd658c0cbefb55b8e04",
+    "_spec": "setprototypeof@1.0.3",
+    "_where": "/fixtures/test-package/node_modules/http-errors",
+    "author": {
+      "name": "Wes Todd"
+    },
+    "bugs": {
+      "url": "https://github.com/wesleytodd/setprototypeof/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "A small polyfill for Object.setprototypeof",
+    "homepage": "https://github.com/wesleytodd/setprototypeof",
+    "keywords": [
+      "polyfill",
+      "object",
+      "setprototypeof"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "setprototypeof",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wesleytodd/setprototypeof.git"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "1.0.3"
+  },
+  "/fixtures/test-package/node_modules/iconv-lite": {
+    "_from": "iconv-lite@0.4.19",
+    "_id": "iconv-lite@0.4.19",
+    "_inBundle": false,
+    "_integrity": "sha512-oTZqweIP51xaGPI4uPa56/Pri/480R+mo7SeU+YETByQNhDG55ycFyNLIgta9vXhILrxXDmF7ZGhqZIcuN0gJQ==",
+    "_location": "/iconv-lite",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "iconv-lite@0.4.19",
+      "name": "iconv-lite",
+      "escapedName": "iconv-lite",
+      "rawSpec": "0.4.19",
+      "saveSpec": null,
+      "fetchSpec": "0.4.19"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/raw-body"
+    ],
+    "_resolved": "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.19.tgz",
+    "_shasum": "f7468f60135f5e5dad3399c0a81be9a1603a082b",
+    "_spec": "iconv-lite@0.4.19",
+    "_where": "/fixtures/test-package/node_modules/body-parser",
+    "author": {
+      "name": "Alexander Shtuchkin",
+      "email": "ashtuchkin@gmail.com"
+    },
+    "browser": {
+      "./extend-node": false,
+      "./streams": false
+    },
+    "bugs": {
+      "url": "https://github.com/ashtuchkin/iconv-lite/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Jinwu Zhan",
+        "url": "https://github.com/jenkinv"
+      },
+      {
+        "name": "Adamansky Anton",
+        "url": "https://github.com/adamansky"
+      },
+      {
+        "name": "George Stagas",
+        "url": "https://github.com/stagas"
+      },
+      {
+        "name": "Mike D Pilsbury",
+        "url": "https://github.com/pekim"
+      },
+      {
+        "name": "Niggler",
+        "url": "https://github.com/Niggler"
+      },
+      {
+        "name": "wychi",
+        "url": "https://github.com/wychi"
+      },
+      {
+        "name": "David Kuo",
+        "url": "https://github.com/david50407"
+      },
+      {
+        "name": "ChangZhuo Chen",
+        "url": "https://github.com/czchen"
+      },
+      {
+        "name": "Lee Treveil",
+        "url": "https://github.com/leetreveil"
+      },
+      {
+        "name": "Brian White",
+        "url": "https://github.com/mscdex"
+      },
+      {
+        "name": "Mithgol",
+        "url": "https://github.com/Mithgol"
+      },
+      {
+        "name": "Nazar Leush",
+        "url": "https://github.com/nleush"
+      }
+    ],
+    "deprecated": false,
+    "description": "Convert character encodings in pure javascript.",
+    "devDependencies": {
+      "async": "*",
+      "errto": "*",
+      "iconv": "*",
+      "istanbul": "*",
+      "mocha": "*",
+      "request": "*",
+      "semver": "*",
+      "unorm": "*"
+    },
+    "engines": {
+      "node": ">=0.10.0"
+    },
+    "homepage": "https://github.com/ashtuchkin/iconv-lite",
+    "keywords": [
+      "iconv",
+      "convert",
+      "charset",
+      "icu"
+    ],
+    "license": "MIT",
+    "main": "./lib/index.js",
+    "name": "iconv-lite",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ashtuchkin/iconv-lite.git"
+    },
+    "scripts": {
+      "coverage": "istanbul cover _mocha -- --grep .",
+      "coverage-open": "open coverage/lcov-report/index.html",
+      "test": "mocha --reporter spec --grep ."
+    },
+    "typings": "./lib/index.d.ts",
+    "version": "0.4.19"
+  },
+  "/fixtures/test-package/node_modules/inherits": {
+    "_from": "inherits@2.0.3",
+    "_id": "inherits@2.0.3",
+    "_inBundle": false,
+    "_integrity": "sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=",
+    "_location": "/inherits",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "inherits@2.0.3",
+      "name": "inherits",
+      "escapedName": "inherits",
+      "rawSpec": "2.0.3",
+      "saveSpec": null,
+      "fetchSpec": "2.0.3"
+    },
+    "_requiredBy": [
+      "/http-errors"
+    ],
+    "_resolved": "https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz",
+    "_shasum": "633c2c83e3da42a502f52466022480f4208261de",
+    "_spec": "inherits@2.0.3",
+    "_where": "/fixtures/test-package/node_modules/http-errors",
+    "browser": "./inherits_browser.js",
+    "bugs": {
+      "url": "https://github.com/isaacs/inherits/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Browser-friendly inheritance fully compatible with standard node.js inherits()",
+    "devDependencies": {
+      "tap": "^7.1.0"
+    },
+    "files": [
+      "inherits.js",
+      "inherits_browser.js"
+    ],
+    "homepage": "https://github.com/isaacs/inherits#readme",
+    "keywords": [
+      "inheritance",
+      "class",
+      "klass",
+      "oop",
+      "object-oriented",
+      "inherits",
+      "browser",
+      "browserify"
+    ],
+    "license": "ISC",
+    "main": "./inherits.js",
+    "name": "inherits",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/isaacs/inherits.git"
+    },
+    "scripts": {
+      "test": "node test"
+    },
+    "version": "2.0.3"
+  },
+  "/fixtures/test-package/node_modules/ipaddr.js": {
+    "_from": "ipaddr.js@1.5.2",
+    "_id": "ipaddr.js@1.5.2",
+    "_inBundle": false,
+    "_integrity": "sha1-1LUFvemUaYfM8PxY2QEP+WB+P6A=",
+    "_location": "/ipaddr.js",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "ipaddr.js@1.5.2",
+      "name": "ipaddr.js",
+      "escapedName": "ipaddr.js",
+      "rawSpec": "1.5.2",
+      "saveSpec": null,
+      "fetchSpec": "1.5.2"
+    },
+    "_requiredBy": [
+      "/proxy-addr"
+    ],
+    "_resolved": "https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.5.2.tgz",
+    "_shasum": "d4b505bde9946987ccf0fc58d9010ff9607e3fa0",
+    "_spec": "ipaddr.js@1.5.2",
+    "_where": "/fixtures/test-package/node_modules/proxy-addr",
+    "author": {
+      "name": "whitequark",
+      "email": "whitequark@whitequark.org"
+    },
+    "bugs": {
+      "url": "https://github.com/whitequark/ipaddr.js/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "description": "A library for manipulating IPv4 and IPv6 addresses in JavaScript.",
+    "devDependencies": {
+      "coffee-script": "~1.12.6",
+      "nodeunit": ">=0.8.2 <0.8.7",
+      "uglify-js": "~3.0.19"
+    },
+    "directories": {
+      "lib": "./lib"
+    },
+    "engines": {
+      "node": ">= 0.10"
+    },
+    "homepage": "https://github.com/whitequark/ipaddr.js#readme",
+    "keywords": [
+      "ip",
+      "ipv4",
+      "ipv6"
+    ],
+    "license": "MIT",
+    "main": "./lib/ipaddr",
+    "name": "ipaddr.js",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/whitequark/ipaddr.js.git"
+    },
+    "scripts": {
+      "test": "cake build test"
+    },
+    "version": "1.5.2"
+  },
+  "/fixtures/test-package/node_modules/media-typer": {
+    "_from": "media-typer@0.3.0",
+    "_id": "media-typer@0.3.0",
+    "_inBundle": false,
+    "_integrity": "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=",
+    "_location": "/media-typer",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "media-typer@0.3.0",
+      "name": "media-typer",
+      "escapedName": "media-typer",
+      "rawSpec": "0.3.0",
+      "saveSpec": null,
+      "fetchSpec": "0.3.0"
+    },
+    "_requiredBy": [
+      "/type-is"
+    ],
+    "_resolved": "https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz",
+    "_shasum": "8710d7af0aa626f8fffa1ce00168545263255748",
+    "_spec": "media-typer@0.3.0",
+    "_where": "/fixtures/test-package/node_modules/type-is",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/media-typer/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Simple RFC 6838 media type parser and formatter",
+    "devDependencies": {
+      "istanbul": "0.3.2",
+      "mocha": "~1.21.4",
+      "should": "~4.0.4"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/media-typer#readme",
+    "license": "MIT",
+    "name": "media-typer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/media-typer.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "0.3.0"
+  },
+  "/fixtures/test-package/node_modules/merge-descriptors": {
+    "_from": "merge-descriptors@1.0.1",
+    "_id": "merge-descriptors@1.0.1",
+    "_inBundle": false,
+    "_integrity": "sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=",
+    "_location": "/merge-descriptors",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "merge-descriptors@1.0.1",
+      "name": "merge-descriptors",
+      "escapedName": "merge-descriptors",
+      "rawSpec": "1.0.1",
+      "saveSpec": null,
+      "fetchSpec": "1.0.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz",
+    "_shasum": "b00aaa556dd8b44568150ec9d1b953f3f90cbb61",
+    "_spec": "merge-descriptors@1.0.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    "bugs": {
+      "url": "https://github.com/component/merge-descriptors/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Mike Grabowski",
+        "email": "grabbou@gmail.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Merge objects using descriptors",
+    "devDependencies": {
+      "istanbul": "0.4.1",
+      "mocha": "1.21.5"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/component/merge-descriptors#readme",
+    "license": "MIT",
+    "name": "merge-descriptors",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/component/merge-descriptors.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+    },
+    "version": "1.0.1"
+  },
+  "/fixtures/test-package/node_modules/methods": {
+    "_from": "methods@~1.1.2",
+    "_id": "methods@1.1.2",
+    "_inBundle": false,
+    "_integrity": "sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=",
+    "_location": "/methods",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "methods@~1.1.2",
+      "name": "methods",
+      "escapedName": "methods",
+      "rawSpec": "~1.1.2",
+      "saveSpec": null,
+      "fetchSpec": "~1.1.2"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz",
+    "_shasum": "5529a4d67654134edcc5266656835b0f851afcee",
+    "_spec": "methods@~1.1.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "browser": {
+      "http": false
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/methods/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      },
+      {
+        "name": "TJ Holowaychuk",
+        "email": "tj@vision-media.ca",
+        "url": "http://tjholowaychuk.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "HTTP methods that node supports",
+    "devDependencies": {
+      "istanbul": "0.4.1",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "index.js",
+      "HISTORY.md",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/jshttp/methods#readme",
+    "keywords": [
+      "http",
+      "methods"
+    ],
+    "license": "MIT",
+    "name": "methods",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/methods.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.1.2"
+  },
+  "/fixtures/test-package/node_modules/mime": {
+    "_from": "mime@1.4.1",
+    "_id": "mime@1.4.1",
+    "_inBundle": false,
+    "_integrity": "sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==",
+    "_location": "/mime",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "mime@1.4.1",
+      "name": "mime",
+      "escapedName": "mime",
+      "rawSpec": "1.4.1",
+      "saveSpec": null,
+      "fetchSpec": "1.4.1"
+    },
+    "_requiredBy": [
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/mime/-/mime-1.4.1.tgz",
+    "_shasum": "121f9ebc49e3766f311a76e1fa1c8003c4b03aa6",
+    "_spec": "mime@1.4.1",
+    "_where": "/fixtures/test-package/node_modules/send",
+    "author": {
+      "name": "Robert Kieffer",
+      "email": "robert@broofa.com",
+      "url": "http://github.com/broofa"
+    },
+    "bin": {
+      "mime": "cli.js"
+    },
+    "bugs": {
+      "url": "https://github.com/broofa/node-mime/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Benjamin Thomas",
+        "email": "benjamin@benjaminthomas.org",
+        "url": "http://github.com/bentomas"
+      }
+    ],
+    "dependencies": {},
+    "deprecated": false,
+    "description": "A comprehensive library for mime-type mapping",
+    "devDependencies": {
+      "mime-db": "1.30.0"
+    },
+    "homepage": "https://github.com/broofa/node-mime#readme",
+    "keywords": [
+      "util",
+      "mime"
+    ],
+    "license": "MIT",
+    "main": "mime.js",
+    "name": "mime",
+    "repository": {
+      "url": "git+https://github.com/broofa/node-mime.git",
+      "type": "git"
+    },
+    "scripts": {
+      "prepublish": "node build/build.js > types.json",
+      "test": "node build/test.js"
+    },
+    "version": "1.4.1"
+  },
+  "/fixtures/test-package/node_modules/mime-db": {
+    "_from": "mime-db@~1.30.0",
+    "_id": "mime-db@1.30.0",
+    "_inBundle": false,
+    "_integrity": "sha1-dMZD2i3Z1qRTmZY0ZbJtXKfXHwE=",
+    "_location": "/mime-db",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "mime-db@~1.30.0",
+      "name": "mime-db",
+      "escapedName": "mime-db",
+      "rawSpec": "~1.30.0",
+      "saveSpec": null,
+      "fetchSpec": "~1.30.0"
+    },
+    "_requiredBy": [
+      "/mime-types"
+    ],
+    "_resolved": "https://registry.npmjs.org/mime-db/-/mime-db-1.30.0.tgz",
+    "_shasum": "74c643da2dd9d6a45399963465b26d5ca7d71f01",
+    "_spec": "mime-db@~1.30.0",
+    "_where": "/fixtures/test-package/node_modules/mime-types",
+    "bugs": {
+      "url": "https://github.com/jshttp/mime-db/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      },
+      {
+        "name": "Robert Kieffer",
+        "email": "robert@broofa.com",
+        "url": "http://github.com/broofa"
+      }
+    ],
+    "deprecated": false,
+    "description": "Media Type Database",
+    "devDependencies": {
+      "bluebird": "3.5.0",
+      "co": "4.6.0",
+      "cogent": "1.0.1",
+      "csv-parse": "1.2.1",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "gnode": "0.1.2",
+      "mocha": "1.21.5",
+      "nyc": "11.1.0",
+      "raw-body": "2.3.0",
+      "stream-to-array": "2.3.0"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "db.json",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/mime-db#readme",
+    "keywords": [
+      "mime",
+      "db",
+      "type",
+      "types",
+      "database",
+      "charset",
+      "charsets"
+    ],
+    "license": "MIT",
+    "name": "mime-db",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/mime-db.git"
+    },
+    "scripts": {
+      "build": "node scripts/build",
+      "fetch": "gnode scripts/fetch-apache && gnode scripts/fetch-iana && gnode scripts/fetch-nginx",
+      "lint": "eslint .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "nyc --reporter=html --reporter=text npm test",
+      "test-travis": "nyc --reporter=text npm test",
+      "update": "npm run fetch && npm run build"
+    },
+    "version": "1.30.0"
+  },
+  "/fixtures/test-package/node_modules/mime-types": {
+    "_from": "mime-types@~2.1.16",
+    "_id": "mime-types@2.1.17",
+    "_inBundle": false,
+    "_integrity": "sha1-Cdejk/A+mVp5+K+Fe3Cp4KsWVXo=",
+    "_location": "/mime-types",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "mime-types@~2.1.16",
+      "name": "mime-types",
+      "escapedName": "mime-types",
+      "rawSpec": "~2.1.16",
+      "saveSpec": null,
+      "fetchSpec": "~2.1.16"
+    },
+    "_requiredBy": [
+      "/accepts",
+      "/type-is"
+    ],
+    "_resolved": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.17.tgz",
+    "_shasum": "09d7a393f03e995a79f8af857b70a9e0ab16557a",
+    "_spec": "mime-types@~2.1.16",
+    "_where": "/fixtures/test-package/node_modules/accepts",
+    "bugs": {
+      "url": "https://github.com/jshttp/mime-types/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jeremiah Senkpiel",
+        "email": "fishrock123@rocketmail.com",
+        "url": "https://searchbeam.jit.su"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "dependencies": {
+      "mime-db": "~1.30.0"
+    },
+    "deprecated": false,
+    "description": "The ultimate javascript content-type utility.",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/mime-types#readme",
+    "keywords": [
+      "mime",
+      "types"
+    ],
+    "license": "MIT",
+    "name": "mime-types",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/mime-types.git"
+    },
+    "scripts": {
+      "lint": "eslint .",
+      "test": "mocha --reporter spec test/test.js",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot test/test.js",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot test/test.js"
+    },
+    "version": "2.1.17"
+  },
+  "/fixtures/test-package/node_modules/ms": {
+    "_from": "ms@2.0.0",
+    "_id": "ms@2.0.0",
+    "_inBundle": false,
+    "_integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=",
+    "_location": "/ms",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "ms@2.0.0",
+      "name": "ms",
+      "escapedName": "ms",
+      "rawSpec": "2.0.0",
+      "saveSpec": null,
+      "fetchSpec": "2.0.0"
+    },
+    "_requiredBy": [
+      "/debug",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
+    "_shasum": "5608aeadfc00be6c2901df5f9861788de0d597c8",
+    "_spec": "ms@2.0.0",
+    "_where": "/fixtures/test-package/node_modules/debug",
+    "bugs": {
+      "url": "https://github.com/zeit/ms/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Tiny milisecond conversion utility",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "expect.js": "0.3.1",
+      "husky": "0.13.3",
+      "lint-staged": "3.4.1",
+      "mocha": "3.4.1"
+    },
+    "eslintConfig": {
+      "extends": "eslint:recommended",
+      "env": {
+        "node": true,
+        "es6": true
+      }
+    },
+    "files": [
+      "index.js"
+    ],
+    "homepage": "https://github.com/zeit/ms#readme",
+    "license": "MIT",
+    "lint-staged": {
+      "*.js": [
+        "npm run lint",
+        "prettier --single-quote --write",
+        "git add"
+      ]
+    },
+    "main": "./index",
+    "name": "ms",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zeit/ms.git"
+    },
+    "scripts": {
+      "lint": "eslint lib/* bin/*",
+      "precommit": "lint-staged",
+      "test": "mocha tests.js"
+    },
+    "version": "2.0.0"
+  },
+  "/fixtures/test-package/node_modules/negotiator": {
+    "_from": "negotiator@0.6.1",
+    "_id": "negotiator@0.6.1",
+    "_inBundle": false,
+    "_integrity": "sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=",
+    "_location": "/negotiator",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "negotiator@0.6.1",
+      "name": "negotiator",
+      "escapedName": "negotiator",
+      "rawSpec": "0.6.1",
+      "saveSpec": null,
+      "fetchSpec": "0.6.1"
+    },
+    "_requiredBy": [
+      "/accepts"
+    ],
+    "_resolved": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.1.tgz",
+    "_shasum": "2b327184e8992101177b28563fb5e7102acd0ca9",
+    "_spec": "negotiator@0.6.1",
+    "_where": "/fixtures/test-package/node_modules/accepts",
+    "bugs": {
+      "url": "https://github.com/jshttp/negotiator/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Federico Romero",
+        "email": "federico.romero@outboxlabs.com"
+      },
+      {
+        "name": "Isaac Z. Schlueter",
+        "email": "i@izs.me",
+        "url": "http://blog.izs.me/"
+      }
+    ],
+    "deprecated": false,
+    "description": "HTTP content negotiation",
+    "devDependencies": {
+      "istanbul": "0.4.3",
+      "mocha": "~1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "lib/",
+      "HISTORY.md",
+      "LICENSE",
+      "index.js",
+      "README.md"
+    ],
+    "homepage": "https://github.com/jshttp/negotiator#readme",
+    "keywords": [
+      "http",
+      "content negotiation",
+      "accept",
+      "accept-language",
+      "accept-encoding",
+      "accept-charset"
+    ],
+    "license": "MIT",
+    "name": "negotiator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/negotiator.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "0.6.1"
+  },
+  "/fixtures/test-package/node_modules/on-finished": {
+    "_from": "on-finished@~2.3.0",
+    "_id": "on-finished@2.3.0",
+    "_inBundle": false,
+    "_integrity": "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=",
+    "_location": "/on-finished",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "on-finished@~2.3.0",
+      "name": "on-finished",
+      "escapedName": "on-finished",
+      "rawSpec": "~2.3.0",
+      "saveSpec": null,
+      "fetchSpec": "~2.3.0"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express",
+      "/finalhandler",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz",
+    "_shasum": "20f1336481b083cd75337992a16971aa2d906947",
+    "_spec": "on-finished@~2.3.0",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/on-finished/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "dependencies": {
+      "ee-first": "1.1.1"
+    },
+    "deprecated": false,
+    "description": "Execute a callback when a request closes, finishes, or errors",
+    "devDependencies": {
+      "istanbul": "0.3.9",
+      "mocha": "2.2.5"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/on-finished#readme",
+    "license": "MIT",
+    "name": "on-finished",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/on-finished.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "2.3.0"
+  },
+  "/fixtures/test-package/node_modules/parseurl": {
+    "_from": "parseurl@~1.3.2",
+    "_id": "parseurl@1.3.2",
+    "_inBundle": false,
+    "_integrity": "sha1-/CidTtiZMRlGDBViUyYs3I3mW/M=",
+    "_location": "/parseurl",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "parseurl@~1.3.2",
+      "name": "parseurl",
+      "escapedName": "parseurl",
+      "rawSpec": "~1.3.2",
+      "saveSpec": null,
+      "fetchSpec": "~1.3.2"
+    },
+    "_requiredBy": [
+      "/express",
+      "/finalhandler",
+      "/serve-static"
+    ],
+    "_resolved": "https://registry.npmjs.org/parseurl/-/parseurl-1.3.2.tgz",
+    "_shasum": "fc289d4ed8993119460c156253262cdc8de65bf3",
+    "_spec": "parseurl@~1.3.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/pillarjs/parseurl/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "parse a url with memoization",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "fast-url-parser": "1.1.3",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/pillarjs/parseurl#readme",
+    "license": "MIT",
+    "name": "parseurl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pillarjs/parseurl.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint .",
+      "test": "mocha --check-leaks --bail --reporter spec test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/"
+    },
+    "version": "1.3.2"
+  },
+  "/fixtures/test-package/node_modules/path-to-regexp": {
+    "_from": "path-to-regexp@0.1.7",
+    "_id": "path-to-regexp@0.1.7",
+    "_inBundle": false,
+    "_integrity": "sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=",
+    "_location": "/path-to-regexp",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "path-to-regexp@0.1.7",
+      "name": "path-to-regexp",
+      "escapedName": "path-to-regexp",
+      "rawSpec": "0.1.7",
+      "saveSpec": null,
+      "fetchSpec": "0.1.7"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz",
+    "_shasum": "df604178005f522f15eb4490e7247a1bfaa67f8c",
+    "_spec": "path-to-regexp@0.1.7",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/component/path-to-regexp/issues"
+    },
+    "bundleDependencies": false,
+    "component": {
+      "scripts": {
+        "path-to-regexp": "index.js"
+      }
+    },
+    "deprecated": false,
+    "description": "Express style path to RegExp utility",
+    "devDependencies": {
+      "istanbul": "^0.2.6",
+      "mocha": "^1.17.1"
+    },
+    "files": [
+      "index.js",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/component/path-to-regexp#readme",
+    "keywords": [
+      "express",
+      "regexp"
+    ],
+    "license": "MIT",
+    "name": "path-to-regexp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/component/path-to-regexp.git"
+    },
+    "scripts": {
+      "test": "istanbul cover _mocha -- -R spec"
+    },
+    "version": "0.1.7"
+  },
+  "/fixtures/test-package/node_modules/proxy-addr": {
+    "_from": "proxy-addr@~2.0.2",
+    "_id": "proxy-addr@2.0.2",
+    "_inBundle": false,
+    "_integrity": "sha1-ZXFQT0e7mI7IGAJT+F3X4UlSvew=",
+    "_location": "/proxy-addr",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "proxy-addr@~2.0.2",
+      "name": "proxy-addr",
+      "escapedName": "proxy-addr",
+      "rawSpec": "~2.0.2",
+      "saveSpec": null,
+      "fetchSpec": "~2.0.2"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.2.tgz",
+    "_shasum": "6571504f47bb988ec8180253f85dd7e14952bdec",
+    "_spec": "proxy-addr@~2.0.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/proxy-addr/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+      "forwarded": "~0.1.2",
+      "ipaddr.js": "1.5.2"
+    },
+    "deprecated": false,
+    "description": "Determine address of proxied request",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "mocha": "3.5.3",
+      "nyc": "10.3.2"
+    },
+    "engines": {
+      "node": ">= 0.10"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/proxy-addr#readme",
+    "keywords": [
+      "ip",
+      "proxy",
+      "x-forwarded-for"
+    ],
+    "license": "MIT",
+    "name": "proxy-addr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/proxy-addr.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "nyc --reporter=text npm test",
+      "test-travis": "nyc --reporter=html --reporter=text npm test"
+    },
+    "version": "2.0.2"
+  },
+  "/fixtures/test-package/node_modules/qs": {
+    "_from": "qs@6.5.1",
+    "_id": "qs@6.5.1",
+    "_inBundle": false,
+    "_integrity": "sha512-eRzhrN1WSINYCDCbrz796z37LOe3m5tmW7RQf6oBntukAG1nmovJvhnwHHRMAfeoItc1m2Hk02WER2aQ/iqs+A==",
+    "_location": "/qs",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "qs@6.5.1",
+      "name": "qs",
+      "escapedName": "qs",
+      "rawSpec": "6.5.1",
+      "saveSpec": null,
+      "fetchSpec": "6.5.1"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/qs/-/qs-6.5.1.tgz",
+    "_shasum": "349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8",
+    "_spec": "qs@6.5.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/ljharb/qs/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Jordan Harband",
+        "email": "ljharb@gmail.com",
+        "url": "http://ljharb.codes"
+      }
+    ],
+    "dependencies": {},
+    "deprecated": false,
+    "description": "A querystring parser that supports nesting and arrays, with a depth limit",
+    "devDependencies": {
+      "@ljharb/eslint-config": "^12.2.1",
+      "browserify": "^14.4.0",
+      "covert": "^1.1.0",
+      "editorconfig-tools": "^0.1.1",
+      "eslint": "^4.6.1",
+      "evalmd": "^0.0.17",
+      "iconv-lite": "^0.4.18",
+      "mkdirp": "^0.5.1",
+      "qs-iconv": "^1.0.4",
+      "safe-publish-latest": "^1.1.1",
+      "tape": "^4.8.0"
+    },
+    "engines": {
+      "node": ">=0.6"
+    },
+    "homepage": "https://github.com/ljharb/qs",
+    "keywords": [
+      "querystring",
+      "qs"
+    ],
+    "license": "BSD-3-Clause",
+    "main": "lib/index.js",
+    "name": "qs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ljharb/qs.git"
+    },
+    "scripts": {
+      "coverage": "covert test",
+      "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js",
+      "lint": "eslint lib/*.js test/*.js",
+      "prelint": "editorconfig-tools check * lib/* test/*",
+      "prepublish": "safe-publish-latest && npm run dist",
+      "pretest": "npm run --silent readme && npm run --silent lint",
+      "readme": "evalmd README.md",
+      "test": "npm run --silent coverage",
+      "tests-only": "node test"
+    },
+    "version": "6.5.1"
+  },
+  "/fixtures/test-package/node_modules/range-parser": {
+    "_from": "range-parser@~1.2.0",
+    "_id": "range-parser@1.2.0",
+    "_inBundle": false,
+    "_integrity": "sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=",
+    "_location": "/range-parser",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "range-parser@~1.2.0",
+      "name": "range-parser",
+      "escapedName": "range-parser",
+      "rawSpec": "~1.2.0",
+      "saveSpec": null,
+      "fetchSpec": "~1.2.0"
+    },
+    "_requiredBy": [
+      "/express",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/range-parser/-/range-parser-1.2.0.tgz",
+    "_shasum": "f49be6b487894ddc40dcc94a322f611092e00d5e",
+    "_spec": "range-parser@~1.2.0",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca",
+      "url": "http://tjholowaychuk.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/range-parser/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "James Wyatt Cready",
+        "email": "wyatt.cready@lanetix.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "Range header field string parser",
+    "devDependencies": {
+      "eslint": "2.11.1",
+      "eslint-config-standard": "5.3.1",
+      "eslint-plugin-promise": "1.1.0",
+      "eslint-plugin-standard": "1.3.2",
+      "istanbul": "0.4.3",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/range-parser#readme",
+    "keywords": [
+      "range",
+      "parser",
+      "http"
+    ],
+    "license": "MIT",
+    "name": "range-parser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/range-parser.git"
+    },
+    "scripts": {
+      "lint": "eslint **/*.js",
+      "test": "mocha --reporter spec",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+    },
+    "version": "1.2.0"
+  },
+  "/fixtures/test-package/node_modules/raw-body": {
+    "_from": "raw-body@2.3.2",
+    "_id": "raw-body@2.3.2",
+    "_inBundle": false,
+    "_integrity": "sha1-vNYMd9Prk83gBQKVw/N5OJvIj4k=",
+    "_location": "/raw-body",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "raw-body@2.3.2",
+      "name": "raw-body",
+      "escapedName": "raw-body",
+      "rawSpec": "2.3.2",
+      "saveSpec": null,
+      "fetchSpec": "2.3.2"
+    },
+    "_requiredBy": [
+      "/body-parser"
+    ],
+    "_resolved": "https://registry.npmjs.org/raw-body/-/raw-body-2.3.2.tgz",
+    "_shasum": "bcd60c77d3eb93cde0050295c3f379389bc88f89",
+    "_spec": "raw-body@2.3.2",
+    "_where": "/fixtures/test-package/node_modules/body-parser",
+    "author": {
+      "name": "Jonathan Ong",
+      "email": "me@jongleberry.com",
+      "url": "http://jongleberry.com"
+    },
+    "bugs": {
+      "url": "https://github.com/stream-utils/raw-body/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Raynos",
+        "email": "raynos2@gmail.com"
+      }
+    ],
+    "dependencies": {
+      "bytes": "3.0.0",
+      "http-errors": "1.6.2",
+      "iconv-lite": "0.4.19",
+      "unpipe": "1.0.0"
+    },
+    "deprecated": false,
+    "description": "Get and validate the raw body of a readable stream.",
+    "devDependencies": {
+      "bluebird": "3.5.0",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3",
+      "readable-stream": "2.3.3",
+      "safe-buffer": "5.1.1"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.d.ts",
+      "index.js"
+    ],
+    "homepage": "https://github.com/stream-utils/raw-body#readme",
+    "license": "MIT",
+    "name": "raw-body",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stream-utils/raw-body.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --trace-deprecation --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --trace-deprecation --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --trace-deprecation --reporter spec --check-leaks test/"
+    },
+    "version": "2.3.2"
+  },
+  "/fixtures/test-package/node_modules/safe-buffer": {
+    "_from": "safe-buffer@5.1.1",
+    "_id": "safe-buffer@5.1.1",
+    "_inBundle": false,
+    "_integrity": "sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg==",
+    "_location": "/safe-buffer",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "safe-buffer@5.1.1",
+      "name": "safe-buffer",
+      "escapedName": "safe-buffer",
+      "rawSpec": "5.1.1",
+      "saveSpec": null,
+      "fetchSpec": "5.1.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.1.tgz",
+    "_shasum": "893312af69b2123def71f57889001671eeb2c853",
+    "_spec": "safe-buffer@5.1.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "http://feross.org"
+    },
+    "bugs": {
+      "url": "https://github.com/feross/safe-buffer/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Safer Node.js Buffer API",
+    "devDependencies": {
+      "standard": "*",
+      "tape": "^4.0.0",
+      "zuul": "^3.0.0"
+    },
+    "homepage": "https://github.com/feross/safe-buffer",
+    "keywords": [
+      "buffer",
+      "buffer allocate",
+      "node security",
+      "safe",
+      "safe-buffer",
+      "security",
+      "uninitialized"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "name": "safe-buffer",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/safe-buffer.git"
+    },
+    "scripts": {
+      "test": "standard && tape test.js"
+    },
+    "version": "5.1.1"
+  },
+  "/fixtures/test-package/node_modules/send": {
+    "_from": "send@0.16.1",
+    "_id": "send@0.16.1",
+    "_inBundle": false,
+    "_integrity": "sha512-ElCLJdJIKPk6ux/Hocwhk7NFHpI3pVm/IZOYWqUmoxcgeyM+MpxHHKhb8QmlJDX1pU6WrgaHBkVNm73Sv7uc2A==",
+    "_location": "/send",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "send@0.16.1",
+      "name": "send",
+      "escapedName": "send",
+      "rawSpec": "0.16.1",
+      "saveSpec": null,
+      "fetchSpec": "0.16.1"
+    },
+    "_requiredBy": [
+      "/express",
+      "/serve-static"
+    ],
+    "_resolved": "https://registry.npmjs.org/send/-/send-0.16.1.tgz",
+    "_shasum": "a70e1ca21d1382c11d0d9f6231deb281080d7ab3",
+    "_spec": "send@0.16.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "TJ Holowaychuk",
+      "email": "tj@vision-media.ca"
+    },
+    "bugs": {
+      "url": "https://github.com/pillarjs/send/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "James Wyatt Cready",
+        "email": "jcready@gmail.com"
+      },
+      {
+        "name": "Jesús Leganés Combarro",
+        "email": "piranna@gmail.com"
+      }
+    ],
+    "dependencies": {
+      "debug": "2.6.9",
+      "depd": "~1.1.1",
+      "destroy": "~1.0.4",
+      "encodeurl": "~1.0.1",
+      "escape-html": "~1.0.3",
+      "etag": "~1.8.1",
+      "fresh": "0.5.2",
+      "http-errors": "~1.6.2",
+      "mime": "1.4.1",
+      "ms": "2.0.0",
+      "on-finished": "~2.3.0",
+      "range-parser": "~1.2.0",
+      "statuses": "~1.3.1"
+    },
+    "deprecated": false,
+    "description": "Better streaming static file server with Range and conditional-GET support",
+    "devDependencies": {
+      "after": "0.8.2",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.2.0",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3",
+      "supertest": "1.1.0"
+    },
+    "engines": {
+      "node": ">= 0.8.0"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/pillarjs/send#readme",
+    "keywords": [
+      "static",
+      "file",
+      "server"
+    ],
+    "license": "MIT",
+    "name": "send",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pillarjs/send.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --check-leaks --reporter spec --bail",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot"
+    },
+    "version": "0.16.1"
+  },
+  "/fixtures/test-package/node_modules/serve-static": {
+    "_from": "serve-static@1.13.1",
+    "_id": "serve-static@1.13.1",
+    "_inBundle": false,
+    "_integrity": "sha512-hSMUZrsPa/I09VYFJwa627JJkNs0NrfL1Uzuup+GqHfToR2KcsXFymXSV90hoyw3M+msjFuQly+YzIH/q0MGlQ==",
+    "_location": "/serve-static",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "serve-static@1.13.1",
+      "name": "serve-static",
+      "escapedName": "serve-static",
+      "rawSpec": "1.13.1",
+      "saveSpec": null,
+      "fetchSpec": "1.13.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/serve-static/-/serve-static-1.13.1.tgz",
+    "_shasum": "4c57d53404a761d8f2e7c1e8a18a47dbf278a719",
+    "_spec": "serve-static@1.13.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/expressjs/serve-static/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {
+      "encodeurl": "~1.0.1",
+      "escape-html": "~1.0.3",
+      "parseurl": "~1.3.2",
+      "send": "0.16.1"
+    },
+    "deprecated": false,
+    "description": "Serve static files",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.2.0",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3",
+      "supertest": "1.1.0"
+    },
+    "engines": {
+      "node": ">= 0.8.0"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/expressjs/serve-static#readme",
+    "license": "MIT",
+    "name": "serve-static",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/expressjs/serve-static.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/"
+    },
+    "version": "1.13.1"
+  },
+  "/fixtures/test-package/node_modules/setprototypeof": {
+    "_from": "setprototypeof@1.1.0",
+    "_id": "setprototypeof@1.1.0",
+    "_inBundle": false,
+    "_integrity": "sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==",
+    "_location": "/setprototypeof",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "setprototypeof@1.1.0",
+      "name": "setprototypeof",
+      "escapedName": "setprototypeof",
+      "rawSpec": "1.1.0",
+      "saveSpec": null,
+      "fetchSpec": "1.1.0"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.0.tgz",
+    "_shasum": "d0bd85536887b6fe7c0d818cb962d9d91c54e656",
+    "_spec": "setprototypeof@1.1.0",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Wes Todd"
+    },
+    "bugs": {
+      "url": "https://github.com/wesleytodd/setprototypeof/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "A small polyfill for Object.setprototypeof",
+    "homepage": "https://github.com/wesleytodd/setprototypeof",
+    "keywords": [
+      "polyfill",
+      "object",
+      "setprototypeof"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "setprototypeof",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wesleytodd/setprototypeof.git"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "typings": "index.d.ts",
+    "version": "1.1.0"
+  },
+  "/fixtures/test-package/node_modules/statuses": {
+    "_from": "statuses@~1.3.1",
+    "_id": "statuses@1.3.1",
+    "_inBundle": false,
+    "_integrity": "sha1-+vUbnrdKrvOzrPStX2Gr8ky3uT4=",
+    "_location": "/statuses",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "statuses@~1.3.1",
+      "name": "statuses",
+      "escapedName": "statuses",
+      "rawSpec": "~1.3.1",
+      "saveSpec": null,
+      "fetchSpec": "~1.3.1"
+    },
+    "_requiredBy": [
+      "/express",
+      "/finalhandler",
+      "/http-errors",
+      "/send"
+    ],
+    "_resolved": "https://registry.npmjs.org/statuses/-/statuses-1.3.1.tgz",
+    "_shasum": "faf51b9eb74aaef3b3acf4ad5f61abf24cb7b93e",
+    "_spec": "statuses@~1.3.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/statuses/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "deprecated": false,
+    "description": "HTTP status utility",
+    "devDependencies": {
+      "csv-parse": "1.1.7",
+      "eslint": "3.10.0",
+      "eslint-config-standard": "6.2.1",
+      "eslint-plugin-promise": "3.3.2",
+      "eslint-plugin-standard": "2.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5",
+      "stream-to-array": "2.3.0"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "HISTORY.md",
+      "index.js",
+      "codes.json",
+      "LICENSE"
+    ],
+    "homepage": "https://github.com/jshttp/statuses#readme",
+    "keywords": [
+      "http",
+      "status",
+      "code"
+    ],
+    "license": "MIT",
+    "name": "statuses",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/statuses.git"
+    },
+    "scripts": {
+      "build": "node scripts/build.js",
+      "fetch": "node scripts/fetch.js",
+      "lint": "eslint .",
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "update": "npm run fetch && npm run build"
+    },
+    "version": "1.3.1"
+  },
+  "/fixtures/test-package/node_modules/type-is": {
+    "_from": "type-is@~1.6.15",
+    "_id": "type-is@1.6.15",
+    "_inBundle": false,
+    "_integrity": "sha1-yrEPtJCeRByChC6v4a1kbIGARBA=",
+    "_location": "/type-is",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "type-is@~1.6.15",
+      "name": "type-is",
+      "escapedName": "type-is",
+      "rawSpec": "~1.6.15",
+      "saveSpec": null,
+      "fetchSpec": "~1.6.15"
+    },
+    "_requiredBy": [
+      "/body-parser",
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/type-is/-/type-is-1.6.15.tgz",
+    "_shasum": "cab10fb4909e441c82842eafe1ad646c81804410",
+    "_spec": "type-is@~1.6.15",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "bugs": {
+      "url": "https://github.com/jshttp/type-is/issues"
+    },
+    "bundleDependencies": false,
+    "contributors": [
+      {
+        "name": "Douglas Christopher Wilson",
+        "email": "doug@somethingdoug.com"
+      },
+      {
+        "name": "Jonathan Ong",
+        "email": "me@jongleberry.com",
+        "url": "http://jongleberry.com"
+      }
+    ],
+    "dependencies": {
+      "media-typer": "0.3.0",
+      "mime-types": "~2.1.15"
+    },
+    "deprecated": false,
+    "description": "Infer the content-type of a request.",
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "eslint-config-standard": "7.1.0",
+      "eslint-plugin-markdown": "1.0.0-beta.4",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "2.1.1",
+      "istanbul": "0.4.5",
+      "mocha": "1.21.5"
+    },
+    "engines": {
+      "node": ">= 0.6"
+    },
+    "files": [
+      "LICENSE",
+      "HISTORY.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/type-is#readme",
+    "keywords": [
+      "content",
+      "type",
+      "checking"
+    ],
+    "license": "MIT",
+    "name": "type-is",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/type-is.git"
+    },
+    "scripts": {
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --check-leaks --bail test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.6.15"
+  },
+  "/fixtures/test-package/node_modules/unpipe": {
+    "_from": "unpipe@1.0.0",
+    "_id": "unpipe@1.0.0",
+    "_inBundle": false,
+    "_integrity": "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=",
+    "_location": "/unpipe",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "unpipe@1.0.0",
+      "name": "unpipe",
+      "escapedName": "unpipe",
+      "rawSpec": "1.0.0",
+      "saveSpec": null,
+      "fetchSpec": "1.0.0"
+    },
+    "_requiredBy": [
+      "/finalhandler",
+      "/raw-body"
+    ],
+    "_resolved": "https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz",
+    "_shasum": "b2bf4ee8514aae6165b4817829d21b2ef49904ec",
+    "_spec": "unpipe@1.0.0",
+    "_where": "/fixtures/test-package/node_modules/raw-body",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/stream-utils/unpipe/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Unpipe a stream from all destinations",
+    "devDependencies": {
+      "istanbul": "0.3.15",
+      "mocha": "2.2.5",
+      "readable-stream": "1.1.13"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/stream-utils/unpipe#readme",
+    "license": "MIT",
+    "name": "unpipe",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stream-utils/unpipe.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.0.0"
+  },
+  "/fixtures/test-package/node_modules/utils-merge": {
+    "_from": "utils-merge@1.0.1",
+    "_id": "utils-merge@1.0.1",
+    "_inBundle": false,
+    "_integrity": "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=",
+    "_location": "/utils-merge",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "version",
+      "registry": true,
+      "raw": "utils-merge@1.0.1",
+      "name": "utils-merge",
+      "escapedName": "utils-merge",
+      "rawSpec": "1.0.1",
+      "saveSpec": null,
+      "fetchSpec": "1.0.1"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz",
+    "_shasum": "9f95710f50a267947b2ccc124741c1028427e713",
+    "_spec": "utils-merge@1.0.1",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Jared Hanson",
+      "email": "jaredhanson@gmail.com",
+      "url": "http://www.jaredhanson.net/"
+    },
+    "bugs": {
+      "url": "http://github.com/jaredhanson/utils-merge/issues"
+    },
+    "bundleDependencies": false,
+    "dependencies": {},
+    "deprecated": false,
+    "description": "merge() utility function",
+    "devDependencies": {
+      "chai": "1.x.x",
+      "make-node": "0.3.x",
+      "mocha": "1.x.x"
+    },
+    "engines": {
+      "node": ">= 0.4.0"
+    },
+    "homepage": "https://github.com/jaredhanson/utils-merge#readme",
+    "keywords": [
+      "util"
+    ],
+    "license": "MIT",
+    "licenses": [
+      {
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/MIT"
+      }
+    ],
+    "main": "./index",
+    "name": "utils-merge",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/jaredhanson/utils-merge.git"
+    },
+    "scripts": {
+      "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+    },
+    "version": "1.0.1"
+  },
+  "/fixtures/test-package/node_modules/vary": {
+    "_from": "vary@~1.1.2",
+    "_id": "vary@1.1.2",
+    "_inBundle": false,
+    "_integrity": "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=",
+    "_location": "/vary",
+    "_phantomChildren": {},
+    "_requested": {
+      "type": "range",
+      "registry": true,
+      "raw": "vary@~1.1.2",
+      "name": "vary",
+      "escapedName": "vary",
+      "rawSpec": "~1.1.2",
+      "saveSpec": null,
+      "fetchSpec": "~1.1.2"
+    },
+    "_requiredBy": [
+      "/express"
+    ],
+    "_resolved": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz",
+    "_shasum": "2299f02c6ded30d4a5961b0b9f74524a18f634fc",
+    "_spec": "vary@~1.1.2",
+    "_where": "/fixtures/test-package/node_modules/express",
+    "author": {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    },
+    "bugs": {
+      "url": "https://github.com/jshttp/vary/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "Manipulate the HTTP Vary header",
+    "devDependencies": {
+      "beautify-benchmark": "0.2.4",
+      "benchmark": "2.1.4",
+      "eslint": "3.19.0",
+      "eslint-config-standard": "10.2.1",
+      "eslint-plugin-import": "2.7.0",
+      "eslint-plugin-markdown": "1.0.0-beta.6",
+      "eslint-plugin-node": "5.1.1",
+      "eslint-plugin-promise": "3.5.0",
+      "eslint-plugin-standard": "3.0.1",
+      "istanbul": "0.4.5",
+      "mocha": "2.5.3",
+      "supertest": "1.1.0"
+    },
+    "engines": {
+      "node": ">= 0.8"
+    },
+    "files": [
+      "HISTORY.md",
+      "LICENSE",
+      "README.md",
+      "index.js"
+    ],
+    "homepage": "https://github.com/jshttp/vary#readme",
+    "keywords": [
+      "http",
+      "res",
+      "vary"
+    ],
+    "license": "MIT",
+    "name": "vary",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jshttp/vary.git"
+    },
+    "scripts": {
+      "bench": "node benchmark/index.js",
+      "lint": "eslint --plugin markdown --ext js,md .",
+      "test": "mocha --reporter spec --bail --check-leaks test/",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+      "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+    },
+    "version": "1.1.2"
+  }
+}

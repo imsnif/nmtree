@@ -12,8 +12,8 @@ eg.
 ```javascript
 {
   "myLib": <myPackageJson>,
-  "node_modules/myDep": <depPackageJson>,
-  "node_modules/myDep/node_modules/myOtherDep": <otherDepPackageJson>
+  "myLib/node_modules/myDep": <depPackageJson>,
+  "myLib/node_modules/myDep/node_modules/myOtherDep": <otherDepPackageJson>
 }
 ```
 ### install

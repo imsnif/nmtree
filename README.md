@@ -18,6 +18,7 @@ eg.
 ```
 ### install
 `npm install -g nmtree` - for the cli tool
+
 `npm install nmtree` for the `require`-able library
 
 ### usage

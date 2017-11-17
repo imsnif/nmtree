@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "standard && tape test/*.spec.js | tap-spec",
-    "coverage": "nyc --reporter=lcov npm test"
+    "coverage": "nyc --reporter=lcov npm test",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
   },
   "keywords": [
     "node_modules",
@@ -24,6 +25,7 @@
     "url": "git+https://github.com/imsnif/nmtree.git"
   },
   "devDependencies": {
+    "coveralls": "^3.0.0",
     "nyc": "^11.3.0",
     "standard": "^10.0.3",
     "tap-spec": "^4.1.1",

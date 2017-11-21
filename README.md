@@ -32,7 +32,7 @@ const installedReactVersions = Object.keys(tree).reduce((versions, libPath) => {
   const { name, version } = tree[libPath]
   if (name === 'react') versions.push(version)
   return versions
-}, []}
+}, [])
 // or whatever else you can think of!
 ```
 

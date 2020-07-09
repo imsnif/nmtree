@@ -19,7 +19,7 @@ module.exports = function nmTree (basePath, tree) {
   const packageJsonPath = path.join(basePath, 'package.json')
   const nodeModulesPath = path.join(basePath, 'node_modules')
   if (fs.existsSync(packageJsonPath)) {
-    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath))
+    const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf8').trim())
     tree[basePath] = packageJson
     if (fs.existsSync(nodeModulesPath)) { // TODO: and is dir
       const nodeModulesPackages = fs.readdirSync(nodeModulesPath)
